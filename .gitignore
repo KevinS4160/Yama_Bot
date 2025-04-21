@@ -1,0 +1,34 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# dotenv file for storing sensitive info
+.env
+
+# IDE files
+.idea/
+
+# log files
+*.log
+
+# Discord bot token (do NOT commit it!)
+config.json
+
+#Remove all html file in git
+*.html
+*.ffpreset
+
+.env
+__pycache__/
+*.pyc
