@@ -60,7 +60,7 @@ async def play_next(ctx, voice_client):
         return
 
     url, title = queue.pop(0)
-    ffmpeg_path = r"C:\Users\kevin\OneDrive\Desktop\Discord Bot\Discord-Bot-Yama\DiscordMUSICEXE\bin\ffmpeg.exe"
+    ffmpeg_path = r"C:\Users\kevin\OneDrive\Desktop\Discord Bot\Yama_Bot\DiscordMUSICEXE\bin\ffmpeg.exe"
 
     ydl_opts = {
         'format': 'bestaudio/best',
